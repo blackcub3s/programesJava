@@ -22,3 +22,10 @@ Per fer el càlcul de la distància de **p** a un catet del triangle ha calgut v
 </p>
 
 
+La funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` podeu veure-la a continuació. Viu d'altres funcions `private` que també he implementat dins la classe per poder calcular el mòdul d'un vector o el producte escalar:
+
+https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L151-L201
+
+Per fer la distància mínima de **p** al triangle s'ha fet amb la funció `calcularDistancia(Punt p)`:
+
+https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L209-L224
