@@ -21,22 +21,32 @@ Més en detall, val a dir que per fer el càlcul de la distància de **p** a un 
   <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangle.svg" alt="imatge triangle no carrega">
 </p>
 
-En la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` hem utilitzat quatre vectors per trobar els dos angles. Per trobar el cosinus de l'angle **α** hem fet servir dos vectors. El vector que va de P1 a P2 i el vector que va de  que va de P1 a p: 
+En la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` hem utilitzat quatre vectors per trobar els dos angles **α** i **β**. 
+
+Per exemple, Per trobar el cosinus de l'angle **α** hem fet servir dos vectors. El vector que va de P1 a P2 i el vector que va de  que va de P1 a p: 
 
 -  $$\vec{u}_{P_1 \to P_2}$$
 -  $$\vec{v}_{P_1 \to p}$$
 
- Mentre que per trobar l'angle per trobar **β** hem pres el vector que va de P2 a P1 i el vector que va de P2 a p:
+Mentre que per trobar l'angle per trobar **β** hem pres el vector que va de P2 a P1 i el vector que va de P2 a p:
  
  - $$\vec{x}_{P_2 \to P_1}$$
  - $$\vec{w}_{P_2 \to p}$$
  
- Per exemple per trobar l'angle dels dos primers vectors hem fet:
+Concretament, per trobar l'angle dels dos primers vectors **u** i **v** hem fet servir l'expressió clàssica:
 
 
 $$ cos(\alpha) = {\vec{u} \cdot \vec{v} \over ||\vec{u}|| \cdot ||\vec{v}||} $$
 
- Agafant com a exemple el triangle de l'esquerra en l'anterior figura, això queda representat gràficament de la següent manera:
+Que queda representada en la següent línia de codi:
+
+https://github.com/blackcub3s/programesJava/blob/02e74f75dc474e2331168dc4911930cf64bf8082/practica1/Triangle.java#L175
+
+I que crida a les funcions per calcular el producte escalar i el mòdul d'un vector:
+
+https://github.com/blackcub3s/programesJava/blob/02e74f75dc474e2331168dc4911930cf64bf8082/practica1/Triangle.java#L63-L73
+
+Agafant com a exemple el triangle de l'esquerra en l'anterior figura, el que expliquem queda representat gràficament de la següent manera:
 
 <p align="center">
     <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangleVECTORS.svg" alt = "imatge de vectors no carrega"> 
