@@ -18,9 +18,14 @@ Per fer el càlcul de la distància de **p** a un catet del triangle ha calgut v
 
 
 <p align="center">
-  <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangle.svg" alt="Ejemplo de imagen centrada">
+  <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangle.svg" alt="imatge triangle no carrega">
 </p>
 
+També mostrem els quatre vectors utilitzats per la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)`, agafant com a exemple el triangle de l'esquerra:
+
+<p align="center">
+    <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangleVECTORS.drawio" alt = "imatge de vectors no carrega"> 
+</p>
 
 La funció que implementa la distància del punt **p** a un segment d'extrems P1 P2 és la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` i podeu veure-la a continuació. Viu d'altres funcions `private` que també he implementat dins la classe per poder calcular el mòdul d'un vector o el producte escalar, implementa la distància d'un punt a una recta i fa servir magnituds vectorials 
 
