@@ -21,7 +21,7 @@ Més en detall, val a dir que per fer el càlcul de la distància de **p** a un 
   <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangle.svg" alt="imatge triangle no carrega">
 </p>
 
-En la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` hem utilitzat quatre vectors per trobar els dos angles, fent servir la fórmula del cosinus de dos vectors (POSAR FORMULA). Per trobar el cosinus de l'angle **α** hem fet servir dos vectors. El vector que va de P1 a P2 i el vector que va de  que va de P1 a p: 
+En la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` hem utilitzat quatre vectors per trobar els dos angles. Per trobar el cosinus de l'angle **α** hem fet servir dos vectors. El vector que va de P1 a P2 i el vector que va de  que va de P1 a p: 
 
 -  $$\vec{u}_{P_1 \to P_2}$$
 -  $$\vec{v}_{P_1 \to p}$$
@@ -31,6 +31,10 @@ En la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)`
  - $$\vec{x}_{P_2 \to P_1}$$
  - $$\vec{w}_{P_2 \to p}$$
  
+ Per exemple per trobar l'angle dels dos primers vectors hem fet:
+
+- $$ /dfrac{1}{2}$$
+
  Agafant com a exemple el triangle de l'esquerra en l'anterior figura, això queda representat gràficament de la següent manera:
 
 <p align="center">
