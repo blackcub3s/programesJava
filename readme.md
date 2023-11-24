@@ -2,7 +2,7 @@
 
 Aquesta carpeta conté programes en java que he fet sota el marc del cicle formatiu de grau superior de primer de DAW/DAM. Per executar els programes, si n'hi ha múltiples en una carpeta es poden posar dins d'un package a netbeans i es pot executar la classe que tingui el main.
 
-# Programes
+# Programes de classes
 
 ## Classe Triangle
 
@@ -60,7 +60,7 @@ Per fer la distància mínima de **p** al triangle (la distància **d** de la pe
 
 https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L209-L224
 
-Podeu veure un esquema visual del que faria la funció prenent el triangle de la figura inicial, però ampliant-ho per als tres catets del mateix:
+Podeu veure un esquema visual del que faria aquesta funció prenent el triangle de la figura inicial, però ampliant-ho per als tres catets del mateix:
 
 <p align="center">
     <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangleGLOBAL.svg" alt = "imatge de les 3 distancies no carrega"> 
@@ -69,3 +69,8 @@ Podeu veure un esquema visual del que faria la funció prenent el triangle de la
 [^1]: la projecció ortogonal del punt p caurà en el segment P1 P2 si i només si l'angle definit pels punts p, P1 i P2 (angle **α**), per una banda,i l'angle definit pels punts P1, P2, p (angle **β** ), per l'altra, són
 tots dos compresos entre 0 i 90 graus (ambdós angles inclosos) cosa que es donarà quan els cosinus dels dos angles
 estiguin dins de l'interval tancat [0,1].
+
+
+# Programes d'algorismes
+
+TO DO
