@@ -34,7 +34,7 @@ En la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)`
  Per exemple per trobar l'angle dels dos primers vectors hem fet:
 
 
-$$ x = {\vec{u} \vec{v} \over 12} $$
+$$ x = {\vec{u} \cdot \vec{v} \over 12} $$
 
  Agafant com a exemple el triangle de l'esquerra en l'anterior figura, això queda representat gràficament de la següent manera:
 
