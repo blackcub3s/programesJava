@@ -17,3 +17,8 @@ Per tal de poder provar la distància d'un punt **p** a un triangle de vèrtexs 
 Per fer el càlcul de la distància de **p** a un catet del triangle ha calgut veure si la projecció ortogonal del punt **p** a la recta que conté el segment definit per, per exemple, **P1 P2**, cau DINS del segment mirant si els angles **α** i **β** són angles aguts -vegeu imatge de sota per entendre-ho- (funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)`); si els angles són aguts la distància mínima del punt **p** al segment mencionat seria la projecció ortogonal del punt **p** a la recta que el conté (a la imatge de sota podeu veure un cas com aquest al triangle de l'esquerra, la distància en verd). En cas contrari, si la projecció de **p** no cau dins el segment *P1 P2* aleshores la distància no es podria trobar amb la projecció ortogonal, que ens trobaria una distància més petita cap a la recta que conté el segment... però no pas el segment. Aleshores, hauriem de trobar la distància mínima cap al vèrtex més proper (a la imatge de sota podeu veure el triangle de la dreta, distància en verd -la mínima- i en vermell -la de la projecció ortogonal, que no hagués estat correcta si l'haguessim donat com a bona-).
 
 
+<p align="center">
+  <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangle.svg" alt="Ejemplo de imagen centrada">
+</p>
+
+
