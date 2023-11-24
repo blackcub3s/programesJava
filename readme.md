@@ -34,7 +34,7 @@ En la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)`
  Per exemple per trobar l'angle dels dos primers vectors hem fet:
 
 
-$$ \alpha = {\vec{u} \cdot \vec{v} \over ||\vec{u}|| \cdot ||\vec{v}||} $$
+$$ cos(\alpha) = {\vec{u} \cdot \vec{v} \over ||\vec{u}|| \cdot ||\vec{v}||} $$
 
  Agafant com a exemple el triangle de l'esquerra en l'anterior figura, això queda representat gràficament de la següent manera:
 
