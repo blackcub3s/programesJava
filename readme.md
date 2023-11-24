@@ -56,9 +56,15 @@ La funció que implementa la distància del punt **p** a un segment d'extrems P1
 
 https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L151-L201
 
-Per fer la distància mínima de **p** al triangle (la distància **d** de la penúltima captura) s'ha fet amb la funció `calcularDistancia(Punt p)`:
+Per fer la distància mínima de **p** al triangle (la distància **d** de la penúltima captura) s'ha fet amb la funció `calcularDistancia(Punt p)` que calcula el mínim de les tres distàncies possibles de **p** als catets.
 
 https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L209-L224
+
+Podeu veure un esquema visual del que faria la funció prenent el triangle de la figura inicial, però ampliant-ho per als tres catets del mateix:
+
+<p align="center">
+    <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangleGLOBAL.svg" alt = "imatge de les 3 distancies no carrega"> 
+</p>
 
 [^1]: la projecció ortogonal del punt p caurà en el segment P1 P2 si i només si l'angle definit pels punts p, P1 i P2 (angle **α**), per una banda,i l'angle definit pels punts P1, P2, p (angle **β** ), per l'altra, són
 tots dos compresos entre 0 i 90 graus (ambdós angles inclosos) cosa que es donarà quan els cosinus dels dos angles
