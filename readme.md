@@ -52,7 +52,7 @@ Agafant com a exemple el triangle de l'esquerra en l'anterior figura, el que exp
     <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangleVECTORS.svg" alt = "imatge de vectors no carrega"> 
 </p>
 
-La funció que implementa la distància del punt **p** a un segment d'extrems P1 P2 és la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` i podeu veure-la a continuació. Viu d'altres funcions `private` que també he implementat dins la classe per poder calcular el mòdul d'un vector o el producte escalar, implementa la distància d'un punt a una recta i fa servir magnituds vectorials 
+La funció que implementa la distància del punt **p** a un segment d'extrems P1 P2 és la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` i podeu veure-la completa a continuació:
 
 https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L151-L201
 
