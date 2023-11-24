@@ -23,8 +23,8 @@ Per fer el càlcul de la distància de **p** a un catet del triangle ha calgut v
 
 En la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` hem utilitzat quatre vectors per trobar els dos angles, fent servir la fórmula del cosinus de dos vectors (POSAR FORMULA). Per trobar el cosinus de l'angle **α** hem fet servir dos vectors:
 
-- El vector que va de P1 a P2: ($$\(\vec{u}_{P_1 \to P_2}\)$) 
-- El vector que va de P1 a p: ($$\(\vec{v}_{P_1 \to p}\)$$;
+- El vector que va de P1 a P2: ($$\(\vec{u}_{P_1 \to P_2}\)$$) 
+-  $$El vector que va de P1 a p: \\vec{v}_{P_1 \to p}\$$
 
  Mentre que per trobar l'angle per trobar **β** hem pres:
  
