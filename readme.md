@@ -21,10 +21,10 @@ Per fer el càlcul de la distància de **p** a un catet del triangle ha calgut v
   <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangle.svg" alt="imatge triangle no carrega">
 </p>
 
-També mostrem els quatre vectors utilitzats per la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)`, agafant com a exemple el triangle de l'esquerra:
+En la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` hem utilitzat quatre vectors per trobar els dos angles, fent servir la fórmula del cosinus de dos vectors (POSAR FORMULA). Per trobar el cosinus de l'angle **α** hem fet servir el vector que va de P1 a P2 ($$(\(\vec{u}_{P_1 \to P_2}\))$$) i el que va de P1 a p (); mentre que per trobar l'angle per trobar **β** hem pres el vector que va de P2 a P1 () i el que va de P2 a p (). Agafant com a exemple el triangle de l'esquerra això queda representat gràficament de la següent manera:
 
 <p align="center">
-    <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangleVECTORS.drawio" alt = "imatge de vectors no carrega"> 
+    <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangleVECTORS.svg" alt = "imatge de vectors no carrega"> 
 </p>
 
 La funció que implementa la distància del punt **p** a un segment d'extrems P1 P2 és la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` i podeu veure-la a continuació. Viu d'altres funcions `private` que també he implementat dins la classe per poder calcular el mòdul d'un vector o el producte escalar, implementa la distància d'un punt a una recta i fa servir magnituds vectorials 
