@@ -57,7 +57,7 @@ La funció que implementa la distància del punt **p** a un segment d'extrems P1
 
 https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L151-L201
 
-Per fer la distància mínima de **p** al triangle (la distància **d** de la penúltima captura) s'ha fet amb la funció `calcularDistancia(Punt p)` que calcula el mínim de les tres distàncies possibles de **p** als catets, invocant al mètode `distanciaPuntAcatet([...])` que acabem de mencionar: 
+Per fer la distància mínima de **p** al triangle (la distància **d** de la penúltima captura) s'ha fet amb la funció `calcularDistancia(Punt p)` que calcula el mínim de les tres distàncies possibles de **p** als catets, invocant tres cops al mètode `distanciaPuntAcatet([...])` que acabem de mencionar passant-li a cada crida de funció dos vèrtexs del triangle (que definiran un segment) i el punt p:
 
 https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L209-L224
 
