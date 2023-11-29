@@ -22,17 +22,17 @@ Més en detall, val a dir que per a fer el càlcul de la distància de **p** a u
 
 En la funció `distanciaPuntAcatet(Punt P1, Punt P2, Punt p, boolean debugging)` hem utilitzat quatre vectors per trobar els dos angles **α** i **β**. 
 
-Per exemple, Per trobar el cosinus de l'angle **α** hem fet servir dos vectors. El vector que va de P1 a P2 i el vector que va de  que va de P1 a p: 
+Així doncs, per trobar el cosinus de l'angle **α** hem fet servir dos vectors (el vector que va de P1 a P2 i el vector que va de  que va de P1 a p): 
 
 -  $$\vec{u}_{P_1 \to P_2}$$
 -  $$\vec{v}_{P_1 \to p}$$
 
-Mentre que per trobar el cosinus de l'angle per trobar **β** hem pres el vector que va de P2 a P1 i el vector que va de P2 a p:
+Anàlogament, per trobar el cosinus de l'angle **β** hem pres el vector que va de P2 a P1 i el vector que va de P2 a p:
  
  - $$\vec{x}_{P_2 \to P_1}$$
  - $$\vec{w}_{P_2 \to p}$$
  
-Concretament, per trobar el cosinus de l'angle dels dos primers vectors **u** i **v** hem fet servir l'expressió clàssica de dividir el producte vectorial dels dos vectors entre el producte dels seus mòduls:
+Per exemple, per trobar el cosinus de l'angle dels dos primers vectors **u** i **v** hem fet servir l'expressió clàssica de dividir el producte vectorial dels dos vectors entre el producte dels seus mòduls:
 
 
 $$ cos(\alpha) = {\vec{u} \cdot \vec{v} \over ||\vec{u}|| \cdot ||\vec{v}||} $$
