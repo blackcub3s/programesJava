@@ -57,11 +57,11 @@ La funció que implementa la distància del punt **p** a un segment d'extrems P1
 
 https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L151-L201
 
-Per fer la distància mínima de **p** al triangle (la distància **d** de la penúltima captura) s'ha fet amb la funció `calcularDistancia(Punt p)` que calcula el mínim de les tres distàncies possibles de **p** als catets, invocant tres cops al mètode `distanciaPuntAcatet([...])` que acabem de mencionar tot passant-li, de forma respectiva, les tres combinacions de vèrtexs possibles que generen els tres catets (segments) juntament amb el punt p:
+Per fer la distància mínima de **p** al triangle s'ha fet amb la funció `calcularDistancia(Punt p)`. Aquesta funció calcula el mínim de les tres distàncies possibles de **p** als catets, invocant tres cops al mètode `distanciaPuntAcatet([...])`: així, de forma respectiva en cada invocació, li passarà les tres combinacions de vèrtexs possibles que generen els tres catets (segments) juntament amb el punt p:
 
 https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L209-L224
 
-Podeu veure un esquema visual del que faria aquesta funció prenent el triangle de la figura inicial, però ampliant-ho per als tres catets del mateix:
+Podeu veure un esquema visual del que faria aquesta funció prenent el triangle de la figura inicial, però ampliant-ho per als tres catets del mateix. La funció obtindria les tres distàncies mínimes de d a cada catet del triangle i, acte seguit, retornaria la mínima de les tres; éssent la distància retornada la distància mínima del punt p al triangle, la que estàvem buscant:
 
 <p align="center">
     <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangleGLOBAL.svg" alt = "imatge de les 3 distancies no carrega"> 
