@@ -41,7 +41,7 @@ Expressió que queda representada en la següent línia de codi:
 
 https://github.com/blackcub3s/programesJava/blob/02e74f75dc474e2331168dc4911930cf64bf8082/practica1/Triangle.java#L173-L175
 
-Línia que crida a les funcions per calcular el producte escalar i el mòdul d'un vector, definides en sengles funcions:
+Línia que crida a sengles funcions que hem programat per calcular el producte escalar i el mòdul d'un vector:
 
 https://github.com/blackcub3s/programesJava/blob/02e74f75dc474e2331168dc4911930cf64bf8082/practica1/Triangle.java#L63-L73
 
