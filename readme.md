@@ -75,11 +75,14 @@ Podeu veure un esquema visual del que faria la funció `calcularDistancia(Punt p
 
 
 
+
 # Programes d'algorismes
 
 ## Càlcul d'un nombre primer
 
-Imaginem-nos que se'ns demana una funció que ens retorni si un nombre primer `n` que li passem per paràmetre és primer o no. Una forma de calcular si un nombre `n` és primer és comprovar si no existeixen divisors d'aquest nombre entre el 2 i el nombre `n-1`. És una forma correcta, però ineficient de fer-ho. Si ho fessim així, si volguessi
+Imaginem-nos que se'ns demana una funció que ens retorni si un nombre primer `n` que li passem per paràmetre és primer o no. Una forma de calcular si un nombre `n` és primer és comprovar si no existeixen divisors d'aquest nombre entre el 2 i el nombre `n-1`. És una forma correcta, però ineficient de fer-ho. Una implementació eficient passa per iterar fins a arrel de n. Com ho hem fet aquí:
+
+https://github.com/blackcub3s/programesJava/blob/5d0fe3bc092bc66a256a69135b0ac0cbce3b78b7/algorismes/EsPrimoEntregableSanti.java#L2-L31
 
 
 
