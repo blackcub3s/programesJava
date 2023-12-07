@@ -66,7 +66,7 @@ Per fer la distància mínima de **p** al triangle s'ha fet amb la funció `calc
 
 https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L209-L224
 
-Podeu veure un esquema visual del que faria aquesta funció prenent el triangle de la figura inicial, però ampliant-ho per als tres catets del mateix. La funció obtindria les tres distàncies mínimes de p a cada catet del triangle i, acte seguit, retornaria la mínima de les tres; éssent la distància retornada la distància mínima del punt p al triangle, la que estàvem buscant:
+Podeu veure un esquema visual del que faria la funció `calcularDistancia(Punt p)` prenent el triangle de la figura inicial, però ampliant-ho per als tres catets del mateix. La funció obtindria les tres distàncies mínimes de p a cada catet del triangle i, acte seguit, retornaria la mínima de les tres; éssent la distància retornada la distància mínima del punt p al triangle, la que estàvem buscant:
 
 <p align="center">
     <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangleGLOBAL.svg" alt = "imatge de les 3 distancies no carrega"> 
