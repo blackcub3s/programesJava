@@ -8,7 +8,7 @@ Aquesta carpeta conté programes en Java que he fet sota el marc del cicle forma
 
 Dins la carpeta [Practica1](./practica1/) podem veure tres classes que implementen operacions I atributs amb els que treballar amb diferents tipus d'objectes del pla (punt, cercle i triangle). En especial m'agradaria fer referència a la classe [Triangle](./practica1/Triangle.java) que, igual que les altres, podeu provar des de l'arxiu java [Practica_1](./practica1/Practica_1.java).
 
-Dins la classe Triangle he definit la idea de triangle a partir de tres punts P (vegeu classe [Punt](./practica1/Punt.java)), he implementat divereses funcions per calcular l'àrea de qualsevol triangle (la fórmula d'heron), el perímetre i, finalment, la funcionalitat de la classe més interessant i a la que he volgut dedicar aquesta entrada en aquest readme.md: he fet una funció per poder trobar la distància mínima de qualsevol punt del pla a un triangle qualsevol[^1].
+Dins la classe Triangle he definit la idea de triangle a partir de tres punts P (vegeu classe [Punt](./practica1/Punt.java)). També he implementat divereses funcions per calcular: el perímetre, l'àrea de qualsevol triangle -la fórmula d'heron- i, finalment, la funcionalitat de la classe més interessant i a la que he volgut dedicar aquesta entrada en aquest readme.md: **he fet una funció per poder trobar la distància mínima de qualsevol punt del pla a un triangle qualsevol**[^1].
 
 ### Càlcul de la distància de p a un triangle t donat
 
