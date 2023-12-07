@@ -8,13 +8,13 @@ Aquesta carpeta conté programes en Java que he fet sota el marc del cicle forma
 
 Dins la carpeta [Practica1](./practica1/) podem veure tres classes que implementen operacions I atributs amb els que treballar amb diferents tipus d'objectes del pla (punt, cercle i triangle). En especial m'agradaria fer referència a la classe [Triangle](./practica1/Triangle.java) que, igual que les altres, podeu provar des de l'arxiu java [Practica_1](./practica1/Practica_1.java).
 
-Dins la classe Triangle he definit la idea de triangle a partir de tres punts P (vegeu classe [Punt](./practica1/Punt.java) i he implementat divereses funcions per calcular l'àrea de qualsveol triangle (la fórmula d'heron), per calcular el perímetre i, finalment, la funcionalitat de la classe més interessant i que he volgut dedicar aquesta entrada a github: he fet un parell de funcions per poder trobar la distància mínima de qualsevol punt del pla a un triangle.
+Dins la classe Triangle he definit la idea de triangle a partir de tres punts P (vegeu classe [Punt](./practica1/Punt.java)), he implementat divereses funcions per calcular l'àrea de qualsevol triangle (la fórmula d'heron), el perímetre i, finalment, la funcionalitat de la classe més interessant i a la que he volgut dedicar aquesta entrada en aquest readme.md: he fet una funció per poder trobar la distància mínima de qualsevol punt del pla a un triangle qualsevol[^1].
 
 ### Càlcul de la distància de p a un triangle t donat
 
 Per tal de poder trobar la distància mínima d'un punt **p** a un triangle de vèrtexs **P1**, **P2**, **P3** he seguit el procediment que he considerat que dona la millor aproximació: primer, he trobat una forma de calcular la distància mínima del punt **p** a un catet del triangle, és a dir, a un segment concret (per exemple, el segment *P1 P2*). Després he trobat la distància mínima del punt **p** als altres dos segments (*P2 P3* i *P3 P1*) i, amb aquestes tres dades, he pogut trobar la distància de **p** al triangle tot fent la mínima de les tres distàncies de **p** als tres segments.
 
-Més en detall, val a dir que per a fer el càlcul de la distància de **p** a un catet del triangle ha calgut veure si la projecció ortogonal del punt **p** a la recta que conté el segment que ens interessa (e.g, segment *P1 P2*), cau DINS d'aquest segment (podria ser que caigués en la recta que el conté, però no en el propi segment). Per tal de poder saber en quin cas ens trobem, hem de mirar, per trigonometria, si els cosinus dels angles **α** i **β** ens indiquen que ambdós angles siguin aguts -vegeu imatge de sota per entendre-ho i nota al peu [^1]-:
+Més en detall, val a dir que per a fer el càlcul de la distància de **p** a un catet del triangle ha calgut veure si la projecció ortogonal del punt **p** a la recta que conté el segment que ens interessa (e.g, segment *P1 P2*), cau DINS d'aquest segment (podria ser que caigués en la recta que el conté, però no en el propi segment). Per tal de poder saber en quin cas ens trobem, hem de mirar, per trigonometria, si els cosinus dels angles **α** i **β** ens indiquen que ambdós angles siguin aguts -vegeu imatge de sota per entendre-ho i nota al peu [^2]-:
 
 <p align="center">
   <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangle.svg" alt="imatge triangle no carrega">
@@ -61,17 +61,26 @@ Per fer la distància mínima de **p** al triangle s'ha fet amb la funció `calc
 
 https://github.com/blackcub3s/programesJava/blob/ddd205c55619b16cd3aa8901763c7ef209b79845/practica1/Triangle.java#L209-L224
 
-Podeu veure un esquema visual del que faria aquesta funció prenent el triangle de la figura inicial, però ampliant-ho per als tres catets del mateix. La funció obtindria les tres distàncies mínimes de d a cada catet del triangle i, acte seguit, retornaria la mínima de les tres; éssent la distància retornada la distància mínima del punt p al triangle, la que estàvem buscant:
+Podeu veure un esquema visual del que faria aquesta funció prenent el triangle de la figura inicial, però ampliant-ho per als tres catets del mateix. La funció obtindria les tres distàncies mínimes de p a cada catet del triangle i, acte seguit, retornaria la mínima de les tres; éssent la distància retornada la distància mínima del punt p al triangle, la que estàvem buscant:
 
 <p align="center">
     <img src="./practica1/auxiliars/diagramaDistanciaMinimaTriangleGLOBAL.svg" alt = "imatge de les 3 distancies no carrega"> 
 </p>
 
-[^1]: la projecció ortogonal del punt p caurà en el segment P1 P2 si i només si l'angle definit pels punts p, P1 i P2 (angle **α**), per una banda,i l'angle definit pels punts P1, P2, p (angle **β** ), per l'altra, són
-tots dos compresos entre 0 i 90 graus (ambdós angles inclosos) cosa que es donarà quan els cosinus dels dos angles
-estiguin dins de l'interval tancat [0,1].
+
 
 
 # Programes d'algorismes
 
-TO DO
+## Càlcul d'un nombre primer
+
+Imaginem-nos que se'ns demana una funció que ens retorni si un nombre primer `n` que li passem per paràmetre és primer o no. Una forma de calcular si un nombre `n` és primer és comprovar si no existeixen divisors d'aquest nombre entre el 2 i el nombre `n-1`. És una forma correcta, però ineficient de fer-ho. Si ho fessim així, si volguessi
+
+
+
+
+
+[^1]: No es podrà calcular la distància d'un punt a un triangle que tingui un catet completament vertical perquè hem definit els catets del triangle com a funcions matemàtiques (rectes en el pla de la forma y = mx + b).
+[^2]: la projecció ortogonal del punt p caurà en el segment P1 P2 si i només si l'angle definit pels punts p, P1 i P2 (angle **α**), per una banda,i l'angle definit pels punts P1, P2, p (angle **β** ), per l'altra, són
+tots dos compresos entre 0 i 90 graus (ambdós angles inclosos) cosa que es donarà quan els cosinus dels dos angles
+estiguin dins de l'interval tancat [0,1].
