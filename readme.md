@@ -119,7 +119,7 @@ L'exercici demanat és:
 
 I la meva proposta per solucionar-lo es pot veure aquí [Exercici4.java](./U06_Matrius/Exercici4.java):
 
-https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici4.java#L16-L79
+https://github.com/blackcub3s/programesJava/blob/1df1e7cdfa582954e6e00295a0206cd389370ed1/U06_Matrius/Exercici4.java#L16-L84
 
 
 
