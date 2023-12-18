@@ -116,16 +116,18 @@ Crear un programa per a gestionar les notes d'un grup escolar (amb un grup de 20
 La resolució la tenim dins el fitxer [Exercici5.java](./U06_Matrius/Exercici5.java). 
 
 
-Per resoldre aquest exercici he fet servir una variable global que mostra el nombre d'estudiants que tenim actualment al sistema, la variable nreEstudiantsAfegits. Aquesta variable no la passem per paràmetre a les diferents funcions sino que en ser una variable global estàtica està disponible en tots els atributs estàtics. La resta de variables amb les que treballo (la que guarda la matriu de notes -**notesGrup**- i la que guarda l'array d'strings que conformem els noms dels estudiants -**nomsAlumnes**- les mantinc dins al main i les passo com a paràmetre -per referència, ja que són arrays- a les diferents funcions o mètodes amb els que hem distribuit el codi):
-
-Fora del main la variable global, com hem dit:
+Per resoldre aquest exercici he fet servir una variable global que mostra el nombre d'estudiants que tenim actualment al sistema, la variable **nreEstudiantsAfegits**. Aquesta variable no la passem per paràmetre a les diferents funcions sino que en ser una variable global estàtica està disponible en tots els atributs estàtics:
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L19-L24
 
-Dins el main, les arrays que passem per referencia a múltiples funcions:
+La resta de variables amb les que treballo constantment en l'exericicis (la que guarda la matriu de notes -**notesGrup**- i la que guarda l'array d'strings que conformen els noms dels estudiants -**nomsAlumnes**-) les mantinc _dins el main_ i les passo com a paràmetre -per referència, ja que són arrays- a les diferents funcions o mètodes amb els que hem distribuit el codi):
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L383-L385
 
-El programa implementa una especie d'interfície gràfica feta amb la terminal, així que com que en java no és trivial esborrar el contingut de la terminal, cada cop que vull mostrar canvi en la interfície he generat molts salts de línia perquè el contingut antic quedi amagat.
+El main que defineix la interfície gràfica principal (el menú d'opcions) es mostra fins que l'usuari prem una de les opcions (A - F). En aquest cas hauria de deixar de mostrar el menú i anar cap a un altre menú. En aquest cas, però, com que el progrmaa s'implementa amb la terminal, i en java no és trivial esborrar el contingut de la terminal, cada cop que vull mostrar un canvi en la interfície senzillament he generat molts salts de línia perquè el contingut antic quedi amagat fent servir la funció <pre>generaSaltsDeLinia(int n)</pre>. A més a més, per aconseguir que la visualització quedi pausada fins que l'usuari premi una tecla -evitant així que el programa torni ràpidament al menú d'opcions impossibilitant a l'usuari veure el resultat de l'output- tenim la funció <pre>pausaVisualitzacio()</pre>:
+
+https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L262-L277
+
+
 
  
