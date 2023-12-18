@@ -189,7 +189,7 @@ https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5
 
 https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L50-L62
 
-Seria molt llarg capturar tots els outputs de pantalla així que mostraré la generació de 20 estudiants amb l'opció D i imprimits per l'opció A del menú del main:
+Seria molt llarg capturar tots els outputs de pantalla així que mostraré la generació de 20 estudiants amb l'opció D que després es mostra amb l'opció A:
 
 <pre>
 
