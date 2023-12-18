@@ -156,6 +156,11 @@ Al seu torn, la funció `generaNotes_i_mitjana()` pren la funció anterior per g
 
 https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L73-L89
 
+La funció `generaNomsEstudiantsAleatoriament()` pren un llistat d'arrays d'enters constants (final -ja que no les modificarem-) amb noms preescrits que combinarà de forma aleatòria per formar noms i cognoms:
+
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L123-L144
+
+
 
 
 
