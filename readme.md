@@ -132,7 +132,7 @@ Fixeu-vos que en el mmain es defineix la interfície gràfica principal (el men�
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L262-L277
 
-En relacio als mètodes que queden en el programa tenim:
+En relació als mètodes que queden per explicar en el programa de gestió d'alumnes, tenim:
 
 - generaNotaDistribucioNormal()
 - imprimirNoms()
@@ -154,7 +154,7 @@ https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5
 
 Al seu torn, la funció `generaNotes_i_mitjana()` pren la funció anterior per generar aleatòriament bons i mals estudiants. Per a cada estudiant generat amb l'opció `D` del menú d'opcions se li assignarà aleatòriament una distribució per generar notes altes, és a dir, el que podria ser una distribució d'amb estudiants bon rendiment rendiment (μ = 8.5 i σ = 1.5) i un altra amb estudiants amb pitjor rendiment (μ = 3 || σ = 2):
 
-https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L63-89
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L63-L89
 
 
 
