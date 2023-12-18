@@ -124,7 +124,9 @@ La resta de variables amb les que treballo constantment en l'exericicis (la que 
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L383-L385
 
-El main que defineix la interfície gràfica principal (el menú d'opcions) es mostra fins que l'usuari prem una de les opcions (A - F). En aquest cas hauria de deixar de mostrar el menú i anar cap a un altre menú. En aquest cas, però, com que el progrmaa s'implementa amb la terminal, i en java no és trivial esborrar el contingut de la terminal, cada cop que vull mostrar un canvi en la interfície senzillament he generat molts salts de línia perquè el contingut antic quedi amagat fent servir la funció <pre>generaSaltsDeLinia(int n)</pre>. A més a més, per aconseguir que la visualització quedi pausada fins que l'usuari premi una tecla -evitant així que el programa torni ràpidament al menú d'opcions impossibilitant a l'usuari veure el resultat de l'output- tenim la funció <pre>pausaVisualitzacio()</pre>:
+El main que defineix la interfície gràfica principal (el menú d'opcions) es mostra fins que l'usuari prem una de les opcions (A - F). En aquest cas hauria de deixar de mostrar el menú i anar cap a un altre menú. En aquest cas, però, com que el progrmaa s'implementa amb la terminal, i en java no és trivial esborrar el contingut de la terminal, cada cop que vull mostrar un canvi en la interfície senzillament he generat molts salts de línia perquè el contingut antic quedi amagat fent servir la funció **generaSaltsDeLinia(int n)**.
+
+A més a més, per aconseguir que la visualització quedi pausada fins que l'usuari premi una tecla -evitant així que el programa torniràpidament al menú d'opcions impossibilitant a l'usuari veure el resultat de l'output- tenim la funció **pausaVisualitzacio()**:
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L262-L277
 
