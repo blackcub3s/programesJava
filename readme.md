@@ -183,11 +183,51 @@ Finalment, la funció `eliminaAlumne()` elimina un alumne del sistema (sempre qu
 
 https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L336-L369
 
-Per acabar ens queden les funcions `visualitzaMatriuEstudiants()` I `imprimirNoms()` que no tenen més complicació. Imprimeixen les dades formatejant a dos decimals:
+Per acabar ens queden les funcions `visualitzaMatriuEstudiants()` I `imprimirNoms()` que no tenen més complicació. Imprimeixen les dades formatejant a dos decimals i els noms un darrere l'altre, en una llista, respectivament:
 
 https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L93-L118
 
 https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L50-L62
+
+Seria molt llarg capturar tots els outputs de pantalla així que mostraré la generació de 20 estudiants amb l'opció D i imprimits per l'opció A del menú del main:
+
+<pre>
+
+-------------- NOTES ESTUDIANTS --------------
+ASS1    ASS2    ASS3    AVG    NOM I COGNOMS
+----------------------------------------------
+9,80	6,70	4,90	7,13	Antonio Montcada Soros
+8,00	6,00	7,30	7,10	Ronaldinho Ronaldo Ronaldo
+1,03	2,85	3,21	2,36	Cristina Santos Llopis
+5,64	3,10	0,83	3,19	Adri Puigdemont Puigdemont
+8,75	9,59	7,53	8,62	Carles Prieto Hernandez
+1,73	3,77	6,64	4,05	Robert Fernandez Llopis
+9,45	9,52	8,38	9,12	Mavis Iberico Alvarado
+0,00	4,08	3,41	2,49	Joel Uson Pineda
+10,00	9,67	9,40	9,69	Melisa Prieto Santos
+2,70	2,74	3,58	3,00	Carlos Ayelen Fernandez
+9,92	10,00	9,56	9,82	Marcello Hernandez Sans
+3,84	4,05	4,27	4,05	Robert Palausabulla Uson
+0,00	4,67	2,35	2,34	Adri Santos Prieto
+4,77	1,08	6,04	3,96	Jennifer Pineda Roma
+3,93	2,52	4,19	3,55	Albert Sanchez Santos
+5,08	1,50	4,93	3,84	Jennifer Prieto Santos
+6,61	8,04	3,77	6,14	Carlos Palausabulla Hernandez
+2,86	0,00	3,17	2,01	Cristina Sanchez Llopis
+8,78	9,53	5,31	7,87	Amagoia Alvarado Alvarado
+4,20	0,00	2,52	2,24	Cristina Pineda Delso
+
+ASS1    ASS2    ASS3 
+10,00	10,00	9,56	NOTES MAXIMES
+9   	8   	8   	NOMBRE D'ESTUDIANTS AMB NOTA SUPERIOR A LA MITJANA DE L'ASSIGNATURA*
+5,35	4,97	5,06	NOTA MITJANA
+
+---------------------------------------------
+---- PREMEU UNA TECLA PER TORNAR AL MENÚ ----
+---------------------------------------------
+
+</pre>
+
 
 
 [^3]: Fixeu-vos que la variable _mitjanaPerModuls:_ no la menciono. No l'esmento perquè no és un contenidor de dades estable durant el programa a diferència de les altres dues, sino que es un contenidor usat cada cop que premem l'opció A per tal de calcular les mitjanes per mòduls (ens és indiferent l'estat que pren quan no estem visionant A perquè la mitjana per mòduls la calculem a partir de la matriu notesGrup).
