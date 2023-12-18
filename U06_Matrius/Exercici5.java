@@ -20,9 +20,7 @@ public class Exercici5 {
 
     // guardo variable global (0 SIGNIFICA QUE NO HI HA NINGU AFEGIT)
     //LA FAIG STATIC PER PODER-LA CRIDAR DES DEL MAIN I DESDE ELS METODES ESTATICS
-    //NO PERQUÈ VULGUI APROFITAR QUE nreEstudiantsAfegits FOS UN ATRIBUT COMPARTIT ENTRE
-    //DIFERENTS INSTANCIES DE LA CLASSE Exercici5 (no en farem cap d'instància)
-    //sino que si no no em deixava cridar-la des dels mètodes static).
+    //NO PERQUÈ VULGUI CONSIDERAR-LA UN ATRIBUT ESTATIC (NO FAIG SERVIR EL PARADIGMA POO EN AQUEST EXERCICI)
     private static int nreEstudiantsAfegits = 0; //O ALUMNES AFEGITS AL PRINCIPI
     
     
