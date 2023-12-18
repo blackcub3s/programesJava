@@ -135,15 +135,15 @@ https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4
 En relació als mètodes que queden per explicar en el programa de gestió d'alumnes, tenim:
 
 - generaNotaDistribucioNormal()
-- imprimirNoms() NOT YET
+- imprimirNoms()
 - generaNotes_i_mitjana()
-- visualitzaMatriuEstudiants() NOT YET
+- visualitzaMatriuEstudiants()
 - generaNomsEstudiantsAleatoriament()
 - fesMitjanaPerModuls()
 - notesMaximesIcomparacioEnMitjana()
 - afegeixAlumneInotes()
 - canviaNotaAssignaturaAestudiant()
-- eliminaAlumne() NOT YET
+- eliminaAlumne()
 
 M'agradaria comentar alguna de les funcions anteriors:
 
@@ -179,9 +179,15 @@ La funció `canviaNotaAssignaturaAestudiant()` canvia una nota de l'assignatura 
 https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L280-L329
 
 
-Finalment, la funció `eliminaAlumne()` elimina un alumne del sistema (sempre que existeixi en el sistema, sino imprimeix missatge d'error). L'eliminació la fa de dos fronts: per una banda, de la matriu **notesGrup**, que conté les notes dels estudiants; Per l'altra, de l'array que conté els noms **nomsAlumnes**. Concretament, això ho aconsegueix fent que la fila de la matriu **notesGrup**, que ocupava l'alumne que eliminem, sigui sobreescrita pel següent alumne, i així successivament fins arribar a l'últim alumne de la matriu eliminant l'últim alumne (que queda repetit); anàlogament, segueix un procediment similar per a **nomsAlumnes**. Així ens assegurem que no queda un espai buit a la matriu de notes ni a l'array de noms. Finalment, la funció eliminaAlumne() també decrementa en una unitat la variable **nreEstudiantsAfegits**: https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L336-L369
+Finalment, la funció `eliminaAlumne()` elimina un alumne del sistema (sempre que existeixi en el sistema, sino imprimeix missatge d'error). L'eliminació la fa de dos fronts: per una banda, de la matriu **notesGrup**, que conté les notes dels estudiants; Per l'altra, de l'array que conté els noms **nomsAlumnes**. Concretament, això ho aconsegueix fent que la fila de la matriu **notesGrup**, que ocupava l'alumne que eliminem, sigui sobreescrita pel següent alumne, i així successivament fins arribar a l'últim alumne de la matriu eliminant l'últim alumne (que queda repetit); anàlogament, segueix un procediment similar per a **nomsAlumnes**. Així ens assegurem que no queda un espai buit a la matriu de notes ni a l'array de noms. Finalment, la funció eliminaAlumne() també decrementa en una unitat la variable **nreEstudiantsAfegits**: 
 
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L336-L369
 
+Per acabar ens queden les funcions `visualitzaMatriuEstudiants()` I `imprimirNoms()` que no tenen més complicació. Imprimeixen les dades formatejant a dos decimals:
+
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L93-L118
+
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L50-L62
 
 
 [^3]: Fixeu-vos que la variable _mitjanaPerModuls:_ no la menciono. No l'esmento perquè no és un contenidor de dades estable durant el programa a diferència de les altres dues, sino que es un contenidor usat cada cop que premem l'opció A per tal de calcular les mitjanes per mòduls (ens és indiferent l'estat que pren quan no estem visionant A perquè la mitjana per mòduls la calculem a partir de la matriu notesGrup).
