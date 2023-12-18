@@ -99,6 +99,30 @@ Podem trobar-los dins la carpeta [U06_Matrius](./U06_Matrius/). Els programbes d
 
 ## Generació d'un quadrat llatí (Exercici4)
 
+L'exercici demanat és:
+
+<pre>   
+    4. Generar un quadrat Llatí d'ordre N.
+    Un quadrat Llatí d'ordre N és una matriu quadrada en la qual la primera 
+    fila conté els N primers nombres naturals, en ordre, i cadascuna de les 
+    següents files conté la rotació de la fila anterior un lloc a la dreta.
+
+    Per exemple, per a N=5
+
+    1 2 3 4 5
+    5 1 2 3 4
+    4 5 1 2 3
+    3 4 5 1 2
+    2 3 4 5 1
+    
+</pre>
+
+I la meva proposta per solucionar-lo es pot veure aquí [Exercici4.java](./U06_Matrius/Exercici4.java):
+
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici4.java#L16-L79
+
+
+
 ## Sistema de gestió d'alumnes (Exercici5)
 
 En l'exercici5 se'ns demana:
