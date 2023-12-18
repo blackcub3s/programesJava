@@ -139,9 +139,9 @@ En relació als mètodes que queden per explicar en el programa de gestió d'alu
 - generaNotes_i_mitjana()
 - visualitzaMatriuEstudiants() NOT YET
 - generaNomsEstudiantsAleatoriament()
-- fesMitjanaPerModuls() NOT YET
-- notesMaximesIcomparacioEnMitjana() NOT YET
-- afegeixAlumneInotes() NOT YET
+- fesMitjanaPerModuls()
+- notesMaximesIcomparacioEnMitjana()
+- afegeixAlumneInotes()
 - canviaNotaAssignaturaAestudiant() NOT YET
 - eliminaAlumne() NOT YET
 
@@ -164,13 +164,19 @@ La funció `fesMitjanaPerModuls()` simplement computa per moduls la mitjana de l
 
 https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L149-L165
 
+La funció `NotesMaximesIcomparacioEnMitjana()` imprimeix les notes màximes per mòdul i el nombre d'estudiants que superen la mitjana de cada un dels mòduls:
+
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L168-L220
 
 
+La funció `afegeixAlumneInotes()` senzillament permet a l'usuari introduir pel canal estàndard d'entrada el nom d'un nou l'alumne i les notes de les assignatures (sempre que hi hagi espai per a un nou alumne). Al seu torn, actualitza la variable **nreEstudiantsAfegits** incrementant-la en una unitat, si es compleix la condició per afegir-lo:
+
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L222-L255
 
 
+La funció `canviaNotaAssignaturaAestudiant()` canvia una nota de l'assignatura d'un estudiant, si és que el troba afegit al sistema (en cas contrari imprimeix missatge d'error):
 
-
-
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L280-L329
 
 
 
