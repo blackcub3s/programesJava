@@ -92,3 +92,28 @@ https://github.com/blackcub3s/programesJava/blob/5d0fe3bc092bc66a256a69135b0ac0c
 [^2]: la projecció ortogonal del punt p caurà en el segment P1 P2 si i només si l'angle definit pels punts p, P1 i P2 (angle **α**), per una banda,i l'angle definit pels punts P1, P2, p (angle **β** ), per l'altra, són
 tots dos compresos entre 0 i 90 graus (ambdós angles inclosos) cosa que es donarà quan els cosinus dels dos angles
 estiguin dins de l'interval tancat [0,1].
+
+# Programes amb arrays bi-dimensionals (matrius)
+
+Podem trobar-los dins la carpeta [U06_Matrius](./U06_Matrius/). Els programbes destacats son el 4 i el 5.
+
+## Generació d'un quadrat llatí (Exercici4)
+
+## Sistema de gestió d'alumnes (Exercici5)
+
+En l'exercici5 se'ns demana un sistema de gestió d'alumnes de manera que permeti:
+
+Crear un programa per a gestionar les notes d'un grup escolar (amb un grup de 20 alumnes i tres assignatures) que permeti:
+
+• Introduir les notes.
+• Calcular la nota mitjana de cada alumne.
+• Calcular la màxima nota de cada assignatura o mòdul.
+• Calcular la nota mitjana per mòdul i quants alumnes la sobrepassen.
+
+La resolució la tenim dins el fitxer [Exerciic5.java](./U06_Matrius/Exercici5.java). 
+
+Per resoldre aquest exercici he fet servir una variable global que mostra el nombre d'estudiants que tenim actualment al sistema, la variable nreEstudiantsAfegits. Aquesta variable no la passem per paràmetre a les diferents funcions sino que en ser una variable global estàtica està disponible en tots els atributs estàtics. La resta de variables amb les que treballo (la que guarda la matriu de notes -notesGrup- i la que guarda l'array d'estudiants -nomsAlumnes- les mantinc dins al main i les passo com a paràmetre -per referència, ja que és un array- a les diferents funcions o mètodes amb els que hem distribuit el codi).
+
+El programa implementa una especie d'interfície gràfica feta amb la terminal, així que com que en java no és trivial esborrar el contingut de la terminal, cada cop que vull mostrar canvi en la interfície he generat molts salts de línia perquè el contingut antic quedi amagat.
+
+ 
