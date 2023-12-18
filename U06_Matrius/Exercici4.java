@@ -15,7 +15,7 @@
 
 package Exercicis3;
 
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 /**
@@ -25,14 +25,19 @@ import java.util.Scanner;
 public class Exercici4 {
     
     
-    //IMPRIMIM LA MATRIU
+    //imprimeix una matriu amb espais variables per acomodar-se als nombres impresos
+    //(l'espaiat variable del tabulador en aquest cas
+    // era molt gran per encabir tota la matriu en pantalla, 
+    // per això l'ús de "%-4d", com a màxim 4 espais per cada nombre
+    // i justificat a l'esquerra)
     public static void visualitzaMatriu(int[][] matriu) {
-        System.out.print("[");
-        for (int i = 0; i < matriu.length - 1; ++i) {
-            System.out.println(Arrays.toString(matriu[i])+","); 
+        for (int i = 0; i < matriu.length; ++i) {
+            for (int valor: matriu[i]) {
+                System.out.printf("%-4d", valor); 
+            }
+            System.out.println(""); //salt de linia
         }
-        System.out.println(Arrays.toString(matriu[matriu.length - 1])+"]");         
-    }
+    }      
 
     //PRE: primera fila d'una matriu
     //POST: fila emplenada (passada per referencia) amb nombres de 1 fins a 
