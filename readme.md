@@ -101,16 +101,18 @@ Podem trobar-los dins la carpeta [U06_Matrius](./U06_Matrius/). Els programbes d
 
 ## Sistema de gestió d'alumnes (Exercici5)
 
-En l'exercici5 se'ns demana un sistema de gestió d'alumnes de manera que permeti:
+En l'exercici5 se'ns demana:
 
-Crear un programa per a gestionar les notes d'un grup escolar (amb un grup de 20 alumnes i tres assignatures) que permeti:
 
-• Introduir les notes.
-• Calcular la nota mitjana de cada alumne.
-• Calcular la màxima nota de cada assignatura o mòdul.
-• Calcular la nota mitjana per mòdul i quants alumnes la sobrepassen.
+_Crear un programa per a gestionar les notes d'un grup escolar (amb un grup de 20 alumnes i tres assignatures) que permeti:_
 
-La resolució la tenim dins el fitxer [Exerciic5.java](./U06_Matrius/Exercici5.java). 
+_- Introduir les notes._
+_- Calcular la nota mitjana de cada alumne._
+_- Calcular la màxima nota de cada assignatura o mòdul._
+_- Calcular la nota mitjana per mòdul i quants alumnes la sobrepassen._
+
+La resolució la tenim dins el fitxer [Exerciic5.java](./U06_Matrius/Exercici5.java)._
+
 
 Per resoldre aquest exercici he fet servir una variable global que mostra el nombre d'estudiants que tenim actualment al sistema, la variable nreEstudiantsAfegits. Aquesta variable no la passem per paràmetre a les diferents funcions sino que en ser una variable global estàtica està disponible en tots els atributs estàtics. La resta de variables amb les que treballo (la que guarda la matriu de notes -notesGrup- i la que guarda l'array d'estudiants -nomsAlumnes- les mantinc dins al main i les passo com a paràmetre -per referència, ja que és un array- a les diferents funcions o mètodes amb els que hem distribuit el codi).
 
