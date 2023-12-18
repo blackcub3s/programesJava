@@ -118,13 +118,17 @@ La resolució la tenim dins el fitxer [Exercici5.java](./U06_Matrius/Exercici5.j
 
 Per resoldre aquest exercici he fet servir una variable global que mostra el nombre d'estudiants que tenim actualment al sistema, la variable **nreEstudiantsAfegits**. Aquesta variable no la passem per paràmetre a les diferents funcions sino que en ser una variable global estàtica està disponible en tots els atributs estàtics:
 
-https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L19-L24
+https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L24
 
 La resta de variables amb les que treballo constantment en l'exericicis (la que guarda la matriu de notes -**notesGrup**- i la que guarda l'array d'strings que conformen els noms dels estudiants -**nomsAlumnes**-) les mantinc _dins el main_ i les passo com a paràmetre -per referència, ja que són arrays- a les diferents funcions o mètodes amb els que hem distribuit el codi[^3]:
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L383-L385
 
-El main que defineix la interfície gràfica principal (el menú d'opcions) es mostra fins que l'usuari prem una de les opcions (A - F). En aquest cas hauria de deixar de mostrar el menú i anar cap a un altre menú. En aquest cas, però, com que el programa s'implementa amb la terminal, i en java no és trivial esborrar el contingut de la terminal, cada cop que vull mostrar un canvi en la interfície senzillament he generat molts salts de línia perquè el contingut antic quedi amagat fent servir la funció **generaSaltsDeLinia(int n)**. A més a més, per aconseguir que la visualització quedi pausada fins que l'usuari premi una tecla -evitant així que el programa torni ràpidament al menú d'opcions impossibilitant a l'usuari veure el resultat de l'output- tenim la funció **pausaVisualitzacio()**:
+A continuació mostro la funció main del programa:
+
+https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L372-L468
+
+Fixeu-vos que el main que defineix la interfície gràfica principal (el menú d'opcions) es mostra fins que l'usuari prem una de les opcions (A - F). En aquest cas hauria de deixar de mostrar el menú i anar cap a un altre menú. En aquest cas, però, com que el programa s'implementa amb la terminal, i en java no és trivial esborrar el contingut de la terminal, cada cop que vull mostrar un canvi en la interfície senzillament he generat molts salts de línia perquè el contingut antic quedi amagat fent servir la funció **generaSaltsDeLinia(int n)**. A més a més, per aconseguir que la visualització quedi pausada fins que l'usuari premi una tecla -evitant així que el programa torni ràpidament al menú d'opcions impossibilitant a l'usuari veure el resultat de l'output- tenim la funció **pausaVisualitzacio()**:
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L262-L277
 
