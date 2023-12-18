@@ -120,7 +120,7 @@ Per resoldre aquest exercici he fet servir una variable global que mostra el nom
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L19-L24
 
-La resta de variables amb les que treballo constantment en l'exericicis (la que guarda la matriu de notes -**notesGrup**- i la que guarda l'array d'strings que conformen els noms dels estudiants -**nomsAlumnes**-) les mantinc _dins el main_ i les passo com a paràmetre -per referència, ja que són arrays- a les diferents funcions o mètodes amb els que hem distribuit el codi[^1]:
+La resta de variables amb les que treballo constantment en l'exericicis (la que guarda la matriu de notes -**notesGrup**- i la que guarda l'array d'strings que conformen els noms dels estudiants -**nomsAlumnes**-) les mantinc _dins el main_ i les passo com a paràmetre -per referència, ja que són arrays- a les diferents funcions o mètodes amb els que hem distribuit el codi[^3]:
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L383-L385
 
@@ -129,7 +129,7 @@ El main que defineix la interfície gràfica principal (el menú d'opcions) es m
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L262-L277
 
 
-[^1]: Fixeu-vos que la variable _mitjanaPerModuls:_ no la menciono. No l'esmento perquè no és un contenidor de dades estable durant el programa a diferència de les altres dues, sino que es un contenidor usat cada cop que premem l'opció A per tal de calcular les mitjanes per mòduls (però ens és indiferent l'estat que pren quan no estem visionant A perquè la mitjana per mòduls la calculem a partir de la matriu notesGrup).
+[^3]: Fixeu-vos que la variable _mitjanaPerModuls:_ no la menciono. No l'esmento perquè no és un contenidor de dades estable durant el programa a diferència de les altres dues, sino que es un contenidor usat cada cop que premem l'opció A per tal de calcular les mitjanes per mòduls (però ens és indiferent l'estat que pren quan no estem visionant A perquè la mitjana per mòduls la calculem a partir de la matriu notesGrup).
 
 
  
