@@ -150,11 +150,11 @@ M'agradaria comentar alguna de les funcions anteriors:
 La funció `generaNotaDistribucioNormal()`  genera un nombre que surt d'una distribució normal amb paràmetres 
 "mitjana" (μ) i desviació estandard "desvEst" (σ)[^4]:
 
-https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L27-L47
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L39-L47
 
 Al seu torn, la funció `generaNotes_i_mitjana()` pren la funció anterior per generar aleatòriament bons i mals estudiants. Per a cada estudiant generat amb l'opció `D` del menú d'opcions se li assignarà aleatòriament una distribució per generar notes altes, és a dir, el que podria ser una distribució d'amb estudiants bon rendiment rendiment (μ = 8.5 i σ = 1.5) i un altra amb estudiants amb pitjor rendiment (μ = 3 i σ = 2)[^5]:
 
-https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L63-L89
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L73-L89
 
 
 
