@@ -129,7 +129,7 @@ El main que defineix la interfície gràfica principal (el menú d'opcions) es m
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L262-L277
 
 
-[^3]: Fixeu-vos que la variable _mitjanaPerModuls:_ no la menciono. No l'esmento perquè no és un contenidor de dades estable durant el programa a diferència de les altres dues, sino que es un contenidor usat cada cop que premem l'opció A per tal de calcular les mitjanes per mòduls (però ens és indiferent l'estat que pren quan no estem visionant A perquè la mitjana per mòduls la calculem a partir de la matriu notesGrup).
+[^3]: Fixeu-vos que la variable _mitjanaPerModuls:_ no la menciono. No l'esmento perquè no és un contenidor de dades estable durant el programa a diferència de les altres dues, sino que es un contenidor usat cada cop que premem l'opció A per tal de calcular les mitjanes per mòduls (ens és indiferent l'estat que pren quan no estem visionant A perquè la mitjana per mòduls la calculem a partir de la matriu notesGrup).
 
 
  
