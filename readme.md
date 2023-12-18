@@ -148,11 +148,11 @@ En relació als mètodes que queden per explicar en el programa de gestió d'alu
 M'agradaria comentar alguna de les funcions anteriors:
 
 La funció `generaNotaDistribucioNormal()`  genera un nombre que surt d'una distribució normal amb paràmetres 
-"mitjana" (μ) i desviació estandard "desvEst" (σ).  
+"mitjana" (μ) i desviació estandard "desvEst" (σ)[^4]:
 
 https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L27-L47
 
-Al seu torn, la funció `generaNotes_i_mitjana()` pren la funció anterior per generar aleatòriament bons i mals estudiants. Per a cada estudiant generat amb l'opció `D` del menú d'opcions se li assignarà aleatòriament una distribució per generar notes altes, és a dir, el que podria ser una distribució d'amb estudiants bon rendiment rendiment (μ = 8.5 i σ = 1.5) i un altra amb estudiants amb pitjor rendiment (μ = 3 || σ = 2):
+Al seu torn, la funció `generaNotes_i_mitjana()` pren la funció anterior per generar aleatòriament bons i mals estudiants. Per a cada estudiant generat amb l'opció `D` del menú d'opcions se li assignarà aleatòriament una distribució per generar notes altes, és a dir, el que podria ser una distribució d'amb estudiants bon rendiment rendiment (μ = 8.5 i σ = 1.5) i un altra amb estudiants amb pitjor rendiment (μ = 3 i σ = 2)[^5]:
 
 https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L63-L89
 
@@ -172,6 +172,9 @@ https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5
 
 
 [^3]: Fixeu-vos que la variable _mitjanaPerModuls:_ no la menciono. No l'esmento perquè no és un contenidor de dades estable durant el programa a diferència de les altres dues, sino que es un contenidor usat cada cop que premem l'opció A per tal de calcular les mitjanes per mòduls (ens és indiferent l'estat que pren quan no estem visionant A perquè la mitjana per mòduls la calculem a partir de la matriu notesGrup).
+
+[^4]: Podeu veure la capçalera de la funció `generaNotaDistribucioNormal()` damunt de la mateixa (clicant en l'arxiu).
+[^5]: Podeu veure la capçalera de la funció `generaNotes_i_mitjana()` damunt de la mateixa (clicant en l'arxiu).
 
 
  
