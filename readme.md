@@ -135,15 +135,15 @@ https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4
 En relació als mètodes que queden per explicar en el programa de gestió d'alumnes, tenim:
 
 - generaNotaDistribucioNormal()
-- imprimirNoms()
+- imprimirNoms() NOT YET
 - generaNotes_i_mitjana()
-- visualitzaMatriuEstudiants
+- visualitzaMatriuEstudiants() NOT YET
 - generaNomsEstudiantsAleatoriament()
-- fesMitjanaPerModuls()
-- notesMaximesIcomparacioEnMitjana()
-- afegeixAlumneInotes()
-- canviaNotaAssignaturaAestudiant()
-- eliminaAlumne()
+- fesMitjanaPerModuls() NOT YET
+- notesMaximesIcomparacioEnMitjana() NOT YET
+- afegeixAlumneInotes() NOT YET
+- canviaNotaAssignaturaAestudiant() NOT YET
+- eliminaAlumne() NOT YET
 
 M'agradaria comentar alguna de les funcions anteriors:
 
@@ -160,7 +160,9 @@ La funció `generaNomsEstudiantsAleatoriament()` pren un llistat d'arrays d'ente
 
 https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L123-L144
 
+La funció `fesMitjanaPerModuls()` simplement computa per moduls la mitjana de la matriu que conté les notes dels estudiants (**notesGrup** en el main, **m** en la funció), cosa que es calcula cada cop que visualitzem la matriu d'estudiants:
 
+https://github.com/blackcub3s/programesJava/blob/df5d753a017d3403a696ccbde031ac5af720fb5f/U06_Matrius/Exercici5.java#L149-L165
 
 
 
