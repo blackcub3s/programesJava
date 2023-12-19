@@ -95,7 +95,7 @@ estiguin dins de l'interval tancat [0,1].
 
 # Programes amb arrays bi-dimensionals (matrius)
 
-Podem trobar-los dins la carpeta [U06_Matrius](./U06_Matrius/). Els programbes destacats son el 4 i el 5.
+Podem trobar-los dins la carpeta [U06_Matrius](./U06_Matrius/). Els programes destacats son el 4 i el 5.
 
 ## Generació d'un quadrat llatí (Exercici4)
 
@@ -144,7 +144,7 @@ Per resoldre aquest exercici he fet servir una variable global que mostra el nom
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L24
 
-La resta de variables amb les que treballo constantment en l'exericicis (la que guarda la matriu de notes -**notesGrup**- i la que guarda l'array d'strings que conformen els noms dels estudiants -**nomsAlumnes**-) les mantinc _dins el main_ i les passo com a paràmetre -per referència, ja que són arrays- a les diferents funcions o mètodes amb els que hem distribuit el codi[^3]:
+La resta de variables amb les que treballo constantment en l'exericici (la que guarda la matriu de notes -**notesGrup**- i la que guarda l'array d'strings que conformen els noms dels estudiants -**nomsAlumnes**-) les mantinc _dins el main_ i les passo com a paràmetre -per referència, ja que són arrays- a les diferents funcions o mètodes amb els que hem distribuit el codi[^3]:
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L383-L385
 
@@ -152,7 +152,7 @@ A continuació mostro la funció main del programa:
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L372-L468
 
-Fixeu-vos que en el mmain es defineix la interfície gràfica principal (el menú d'opcions). Aquest main es mostra fins que l'usuari prem una de les opcions (A - F). Quan ho faci, s'hauria de deixar de mostrar el menú d'opcions i s'hauria de mostrar per pantalla alguna altra cosa. En aquest cas, però, com que el programa s'implementa amb la terminal, i en java no és trivial esborrar el contingut de la mateixa, cada cop que vull mostrar un canvi en la interfície senzillament he hagut de generar molts salts de línia perquè el contingut antic quedi amagat fent servir la funció **generaSaltsDeLinia(int n)**. A més a més, per aconseguir que la visualització quedi pausada fins que l'usuari premi una tecla -evitant així que el programa torni ràpidament al menú d'opcions impossibilitant a l'usuari veure el resultat de l'output- tenim la funció **pausaVisualitzacio()**:
+Fixeu-vos que en el main es defineix la interfície gràfica principal (el menú d'opcions). Aquest main es mostra fins que l'usuari prem una de les opcions (A - F). Quan ho faci, s'hauria de deixar de mostrar el menú d'opcions i s'hauria de mostrar per pantalla alguna altra cosa. En aquest cas, però, com que el programa s'implementa amb la terminal, i en java no és trivial esborrar el contingut de la mateixa, cada cop que vull mostrar un canvi en la interfície senzillament he hagut de generar molts salts de línia perquè el contingut antic quedi amagat fent servir la funció **generaSaltsDeLinia(int n)**. A més a més, per aconseguir que la visualització quedi pausada fins que l'usuari premi una tecla -evitant així que el programa torni ràpidament al menú d'opcions impossibilitant a l'usuari veure el resultat de l'output- tenim la funció **pausaVisualitzacio()**:
 
 https://github.com/blackcub3s/programesJava/blob/f3be083e339333e141b6043cd6916c4880967f7c/U06_Matrius/Exercici5.java#L262-L277
 
